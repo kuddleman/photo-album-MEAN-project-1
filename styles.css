@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+    
